@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTSNS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="drugi-header">
+        <nav>
+            <a href="index.html"><img src="logo bez pozadine.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">POCETNA</a></li>
+                    <li><a href="o nama.html">O NAMA</a></li>
+                    <li><a href="smerovi.html">SMEROVI</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>Smerovi</h1>
+</section>
+ <section class="smerovi-dva">
+    <div class="red">
+        <div class="kurs-kol">
+            <h3>Informacione Tehnologije</h3>
+            <p>Smer Informacione tehnologije obrazuje stručnjake za programiranje, rad sa bazama podataka i razvoj savremenih softverskih rešenja.</p>
+        </div>
+        <div class="kurs-kol">
+            <h3>Veb Dizajn</h3>
+            <p>Smer Veb dizajn osposobljava studente za izradu i vizuelno oblikovanje modernih i funkcionalnih web sajtova.</p>
+        </div>
+        <div class="kurs-kol">
+            <h3>Graficki Dizajn</h3>
+            <p>Smer Grafički dizajn obrazuje studente za kreativno vizuelno oblikovanje i izradu grafičkih rešenja za digitalne i štampane medije.</p>
+        </div>
+    </div>
+ </section>
+
+ <section class="footer">
+    <h4>O nama</h4>
+    <p>Visoka tehnička škola strukovnih studija u Novom Sadu je obrazovna ustanova sa dugom tradicijom i praktično orijentisanim studijama.<br> Studentima pruža znanja i veštine tražene na savremenom tržištu rada.</p>
+    <div class="ikonice">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Dizajner <i class="fa fa-instagram"></i> Nikola Malesev</p>
+</section>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0"
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px"
+    }
+ </script>
+    
+</body>

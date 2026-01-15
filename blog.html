@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VTSNS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="drugi-header">
+        <nav>
+            <a href="index.html"><img src="logo bez pozadine.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">POCETNA</a></li>
+                    <li><a href="o nama.html">O NAMA</a></li>
+                    <li><a href="smerovi.html">SMEROVI</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>Nasi sertifikati i online programi</h1>
+</section>
+<section class="blog-kontent">
+    <div class="red">
+        <div class="blog-levo">
+            <img src="diploma.png">
+            <h2>Nasi sertifikati i online programi</h2>
+            <p>Visoka tehnička škola strukovnih studija u Novom Sadu nudi studentima savremeno obrazovanje koje kombinuje teoriju i praksu, pripremajući ih za konkretne profesionalne izazove. Bilo da te zanima informatika, saobraćaj, dizajn ili tehničke nauke, VTSNS pruža programe koji razvijaju praktične veštine i kreativnost, uz podršku laboratorija, projekata i saradnje sa privredom. Studenti ovde ne samo da stiču znanje, već i iskustvo koje ih čini konkurentnim na tržištu rada.</p>
+            <br>
+            <p>Visoka tehnička škola strukovnih studija u Novom Sadu pruža obrazovanje koje priprema studente za stvarni svet tehnologije i industrije. Programi škole kombinuju teorijsko znanje sa praktičnim projektima, laboratorijama i saradnjom sa kompanijama, čime studenti razvijaju veštine tražene na tržištu rada. VTSNS je mesto gde se učenje susreće sa inovacijama i profesionalnim rastom.</p>
+            <br>
+            <p>Na Visokoj tehničkoj školi strukovnih studija u Novom Sadu studenti stiču ne samo teorijska znanja, već i praktična iskustva koja su ključna za buduću karijeru. Škola nudi savremene programe iz oblasti tehnike, dizajna i informatike, sa fokusom na primenu znanja kroz projekte i praksu. VTSNS je zajednica gde se podržava kreativnost, inovativnost i profesionalni razvoj mladih stručnjaka.</p>
+            <br>
+            <p>Visoka tehnička škola strukovnih studija u Novom Sadu pruža studentima priliku da svoje znanje odmah primene u praksi. Kroz savremene programe, laboratorije i saradnju sa privredom, studenti razvijaju veštine potrebne za uspešnu karijeru u tehničkim i kreativnim oblastima. VTSNS je mesto gde učenje postaje iskustvo, a ideje pretvaraju u rešenja.</p>
+
+            <div class="komentari">
+                <h3>Ostavite komentar</h3>
+                <form class="komentar-form">
+                    <input type="text" placeholder="Uneti Ime" >
+                    <input type="email" placeholder="Uneti Email" >
+                    <textarea rows="5" placeholder="Vas komentar"></textarea>
+                    <button type="submit" class="hero-btn plavi">Postavite Komentar</button>
+                </form>
+            </div>
+    </div>
+        <div class="blog-desno">
+            <h3>Kategorije objava</h3>
+            <div>
+                <span>Biznis Analize</span>
+                <span>21</span>
+            </div>
+             <div>
+                <span>Nauka o podatcima</span>
+                <span>74</span>
+            </div>
+             <div>
+                <span>Masinsko ucenje</span>
+                <span>56</span>
+            </div>
+             <div>
+                <span>Informatika</span>
+                <span>45</span>
+            </div>
+             <div>
+                <span>Auto Cad</span>
+                <span>22</span>
+            </div>
+             <div>
+                <span>Trgovina</span>
+                <span>31</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+ <section class="footer">
+    <h4>O nama</h4>
+    <p>Visoka tehnička škola strukovnih studija u Novom Sadu je obrazovna ustanova sa dugom tradicijom i praktično orijentisanim studijama.<br> Studentima pruža znanja i veštine tražene na savremenom tržištu rada.</p>
+    <div class="ikonice">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Dizajner <i class="fa fa-instagram"></i> Nikola Malesev</p>
+</section>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0"
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px"
+    }
+ </script>
+    
+</body>
